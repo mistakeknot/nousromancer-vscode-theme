@@ -1,0 +1,61 @@
+{
+  "name": "nousromancer-theme",
+  "displayName": "Nousromancer",
+  "description": "Black, millennial pink, electric blue, and violet for VS Code and Hermes Desktop.",
+  "version": "0.0.1",
+  "publisher": "mistakeknot",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mistakeknot/nousromancer-vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mistakeknot/nousromancer-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/mistakeknot/nousromancer-vscode-theme#readme",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "hermes",
+    "nousromancer",
+    "millennial pink",
+    "blue",
+    "purple"
+  ],
+  "galleryBanner": {
+    "color": "#08060D",
+    "theme": "dark"
+  },
+  "extensionKind": [
+    "ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nousromancer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nousromancer-dark-color-theme.json"
+      },
+      {
+        "label": "Nousromancer Light",
+        "uiTheme": "vs",
+        "path": "./themes/nousromancer-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
+  }
+}
