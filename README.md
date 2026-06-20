@@ -9,7 +9,7 @@ This package ships a VS Code color theme extension so Hermes Desktop users can i
 After the extension is published to the Visual Studio Marketplace, paste this id into Hermes Desktop's theme installer:
 
 ```text
-mistakeknot.nousromancer-theme
+GeneralSystemsVentures.nousromancer-theme
 ```
 
 Then click **Install**. Hermes Desktop reads the extension's contributed VS Code color themes and converts them into a desktop palette.
